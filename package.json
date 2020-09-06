@@ -1,0 +1,28 @@
+{
+  "name": "AudioReactiveWorkshop",
+  "version": "1.0.0",
+  "description": "Audio Reactive Visuals for begginers.",
+  "main": "main.js",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "start": "electron ."
+  },
+  "build": {
+    "asar": "false"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "audio",
+    "reactive",
+    "visuals",
+    "tutorial",
+    "demo"
+  ],
+  "author": "JuanFuent.es",
+  "license": "MIT License",
+  "devDependencies": {
+    "electron": "^10.1.1",
+    "electron-builder": "^22.8.0"
+  }
+}
